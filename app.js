@@ -18,6 +18,20 @@ redis-cli
 Verify Redis is running by typing redis-cli and running:
 ping
 You should see PONG.
+
+
+
+-------------------------------------------------
+
+
+after starting the server and add some data
+
+
+
+KEYS user:*                (to see all the users created with id)
+
+HGETALL user:1                (to access the user with id 1)
+
 */
 
 const express = require('express');
