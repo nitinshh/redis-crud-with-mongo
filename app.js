@@ -1,7 +1,7 @@
 /*
 in linux(ubuntu) terminal
 
-sudo apt-get update
+sudo apt-get update    -- only when you trying it for the first time
 sudo apt-get install redis-server   --- to install
 
 
